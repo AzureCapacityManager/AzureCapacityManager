@@ -111,7 +111,6 @@ app.MapGet("/api/metrics", (ICapacityStore capacityStore) =>
 
 app.Run();
 
-// Exposed so integration tests can spin the app up via WebApplicationFactory<Program>.
 public partial class Program
 {
 }
